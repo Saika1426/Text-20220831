@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+table{
+    width: 50%;
+    margin: auto;
+    font-size: 1.5em;
+}
+h1{
+    border: 6px cornflowerblue solid;
+    margin-top: 30 px;
+}
+td{
+    border-bottom: 1px solid brown;
+}
