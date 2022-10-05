@@ -15,7 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
-    <link href="randomselector/style.css" rel="stylesheet">
+    <link href="MyVideo/style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -30,14 +30,14 @@
             <li class="nav-item ">
               <a class="nav-link" href="index.html">Home </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="random_selector.html">RandomSelector<span class="sr-only">(current)</span></a>
+            <li class="nav-item ">
+              <a class="nav-link" href="random_selector.html">RandomSelector</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="classSchdure.html">ClassSchdure</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Myvideo.html">Myvideo</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="Myvideo.html">Myvideo<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="love.html">Love</a>
@@ -63,15 +63,14 @@
       <div class="container marketing">
 
         <hr class="featurette-divider">
-        <h1>???</h1>
-        <input type="button" value="今天...我想來點...">
-        <ul id="choices">
-            <li>豚骨拉麵</li>
-            <li>春川炒雞</li>
-            <li>麻醬麵</li>
-            <li>皮蛋瘦肉粥</li>
-        </ul>
-        <img>
+        <h1>YouTube 心情點唱機</h1>
+
+        <h2></h2>
+        <div id="player"></div>
+        <br>
+    
+    
+        <input id="playButton" type="button" value="Play">
         
 
         <hr class="featurette-divider">
@@ -104,10 +103,13 @@
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="assets/js/vendor/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
+    <script src="MyVideo/playlist.js"></script>
+    <script src="MyVideo/main.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="randomselector/main.js"></script>
+    
   </body>
 </html>
